@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-image: url(/img/fundo.png); /* Define img de fundo */
+    background-size: cover;/*Isso garante que a imagem de fundo cubra todo o elemento, dimensionando a imagem conforme necessário, mas mantendo sua proporção.*/
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+header nav a{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 300;
+    padding: 32px;
+    text-decoration: none;
+}
+
+.linha{
+    width: 450px;
+    height: 150px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    margin-top: 27.46px;
+}
+
+.esquerda{
+    width: 450px;
+    height: 211.54px;
+    padding-left: 144px;
+    padding-top: 144px;
+    line-height: 24px; 
+}
+
+.direita{
+    padding-left: 971px;  
+}
+
+.botoes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.assistir{
+    width: 200px;
+    background-color: #AB2323;
+    padding: 12px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 10px;
+    
+}
+
+.comprar{
+width: 200px;
+background-color: #face31;
+padding: 12px;
+font-family: 'Poppins';
+font-size: 16px;
+text-decoration: none;
+color: white;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+.sonic{
+    margin-left: 45px;
+}
+
